@@ -1,0 +1,13 @@
+.checkmark::before {
+  content: "\2713";
+  opacity: 0;
+  animation: appear 0.5s forwards;
+}
+
+@keyframes appear {
+  to {
+    opacity: 1;
+  }
+}
+
+
